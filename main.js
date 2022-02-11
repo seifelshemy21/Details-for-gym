@@ -14,16 +14,16 @@ function DarkMode() {
     
 }
 
-var yourAge =prompt("What is your Age")
-
-if(yourAge < 15){
-    console.log("not here");
+var yourName =prompt("What is your Name")
+if(yourName){
+    document.getElementById("yourName").innerHTML = "Hello :" + "" + yourName ;
 } else{
-    console.log("Okay");
+    document.getElementById("yourName").innerHTML = "Hello member" + yourName ;
 }
 
 var time = new Date().getHours();
 var text;
+
 if(time>12){
     text ="good evining";
 } else if(time<12){
@@ -32,3 +32,4 @@ if(time>12){
    "good day" ;
 }
 console.log(text);
+
