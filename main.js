@@ -16,7 +16,7 @@ function DarkMode() {
 
 var yourName =prompt("What is your Name");
 if(yourName){
-    document.getElementById("h2Name").innerHTML = "Hello :" + " " +   yourName ;
+    document.getElementById("h2Name").innerHTML = "Hello :" + yourName ;
 } else{
     document.getElementById("h2Name").innerHTML = "Hello member" ;
 }
@@ -32,6 +32,7 @@ if(time>12){
    "good day" ;
 }
 console.log(text);
+
 
 
 
