@@ -18,7 +18,7 @@ var yourName =prompt("What is your Name");
 if(yourName){
     document.getElementById("h2Name").innerHTML = "Hello :" + " " + yourName ;
 } else{
-    document.getElementById("yourName").innerHTML = "Hello member" + yourName ;
+    document.getElementById("yourName").innerHTML = "Hello member" ;
 }
 
 var time = new Date().getHours();
